@@ -1,1 +1,1 @@
-scripts.js
+// $(someElement).trigger('click');

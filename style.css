@@ -11,6 +11,10 @@ body {
   background-color:black;
 }
 
+@font-face {
+    font-family: 'dj'; /*a name to be used later*/
+    src: url(./images/rabiohead.ttf); /*URL to font*/
+}
 
 #page-wrap {
   /*font-family: Georgia, serif;*/
@@ -20,7 +24,15 @@ body {
   	
      /*width: 900px;*/
      /*margin: 0 auto;*/
+}
 
+#title {
+  position:absolute;
+  font-size: 70px;
+  color:white;
+  font-family: 'dj'; 
+  margin-left:410px;
+  margin-top:50px;
 }
 
 #casio {
@@ -1658,3 +1670,42 @@ body {
   outline-style:solid;
   outline-width:1px;
 }
+
+
+#rights {
+  font-family: 'Arvo', Georgia, Times, serif;
+  
+  color: #000000;
+  margin-left: 20px;
+  margin-top: 590px;
+  position: absolute;
+  /*background-color: #000000;*/
+  height: 15px; 
+    width: 1100px;
+  /*border-style: solid;*/
+    /*background-color:rgba(0,0,0,0.5);*/
+    /*border-radius: 5px 5px 5px 5px;*/
+}
+
+#copyright {
+  font-family: 'Arvo', Georgia, Times, serif;
+  margin-top: 0px;
+  font-size: 9px;
+  /*width:200px;*/
+  /*padding: 0px;*/
+  margin-left: 5px;
+  position: absolute;
+  color:white;
+}
+#cred {
+  font-family: 'Arvo', Georgia, Times, serif;
+  font-size:9px;
+  /*width:170px;*/
+  margin-top: 0px;
+  margin-left: 875px;
+  /*padding: 5px;*/
+  position: absolute;
+  color:white;
+  
+}
+
