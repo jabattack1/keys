@@ -1,5 +1,9 @@
 console.log('javascript')
 
+$(window).load(function(){
+      $('.loader').fadeOut();
+});
+
 var note = document.getElementById("c6piano"); 
 
 
