@@ -3,7 +3,7 @@ console.log('javascript')
 $(window).load(function(){
     setTimeout(function() {
       $('.loader').fadeOut();
-    }, 7000);
+    }, 2000);
 });
 
 var note = document.getElementById("c6piano"); 
