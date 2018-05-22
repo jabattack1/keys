@@ -28,7 +28,7 @@ body {
 
 #title {
   /*position:absolute;*/
-  margin-top:50px;
+  margin-top:115px;
   font-size: 70px;
   color:white;
   font-family: 'dj'; 
@@ -41,7 +41,7 @@ body {
 #casio {
   /*position:absolute;*/
   width: 1020px;
-  margin-top:109px;
+  margin-top:24px;
   /*margin-left:19px;*/
   display: block;
   margin-left: auto;
