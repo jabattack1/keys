@@ -11,10 +11,9 @@ html {
 body {
     display: table-cell;
     vertical-align: middle;
-      background-size: 1050px 760px;
-  background-repeat: no-repeat;
-  width:1050px;
-    height: 600px;
+    background-size: 1050px 760px;
+    background-repeat: no-repeat;
+
     background-color:black;
     /*background-color:green;*/
 }
@@ -40,7 +39,7 @@ body {
 
 #title {
   /*position:absolute;*/
-  margin-top:115px;
+  margin-top:0px;
   font-size: 70px;
   color:white;
   font-family: 'dj'; 
