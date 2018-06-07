@@ -1,15 +1,27 @@
-body {
-  /*background: url() no-repeat;*/
-  /*background-color:black;*/
-  /*background:url(./images/deskt.jpg) repeat-y center top;*/
-  background-size: 11050px 760px;
-  background-repeat: no-repeat;
-	width:1050px;
-  	height: 600px;
-  	margin: 0 auto;
-  position:relative;
-  background-color:black;
+
+html, body {
+    height: 100%;
 }
+
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+      background-size: 1050px 760px;
+  background-repeat: no-repeat;
+  width:1050px;
+    height: 600px;
+    background-color:black;
+    /*background-color:green;*/
+}
+
+
+
+
 
 @font-face {
     font-family: 'dj'; /*a name to be used later*/
