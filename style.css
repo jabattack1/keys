@@ -1738,6 +1738,7 @@ audio {
   /*padding: 5px;*/
   position: absolute;
   color:white; 
+  width:160px;
 }
 
 .loader {
